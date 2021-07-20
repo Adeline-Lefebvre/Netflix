@@ -1,6 +1,6 @@
 import "./index.css";
-import Images from "/Users/adelinelefebvre/LeReacteur/REACT/netflix/src/components/Images/index.js";
-import emissions from "/Users/adelinelefebvre/LeReacteur/REACT/netflix/src/emissions.json";
+import Images from "../Images/index.js";
+import emissions from "../../emissions.json";
 
 const Section = (props) => {
   return (

@@ -6,7 +6,7 @@ import Logo from "./img/Netflix-logo.png";
 function App() {
   return (
     <div className="container">
-      <img className="logo" src={Logo} />
+      <img className="logo" src={Logo} alt="" />
       {emissions.map((elem, i) => (
         <Section index={i}></Section>
       ))}
